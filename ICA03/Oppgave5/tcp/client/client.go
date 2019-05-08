@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// Create connection to the server
-	conn := connectTo("127.0.0.1:5003")
+	conn := connectTo("127.0.0.1:5002")
 
 	for {
 		// Listen for messages from the server
